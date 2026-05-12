@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.env
+.DS_Store
+Thumbs.db
+
+# Generated analysis outputs
+outputs/
+reports/
+figures/
+
+# Local raw datasets
+data/*.txt
