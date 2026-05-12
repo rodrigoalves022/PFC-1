@@ -32,22 +32,17 @@ A raiz do projeto guarda os materiais do trabalho:
 
 Cada uma dessas pastas agora possui um `README.md` proprio para facilitar a navegacao.
 
-Dentro de `src/`, o pacote foi colocado em portugues para evitar ambiguidade com as pastas da raiz:
+Dentro de `src/`:
 
 ```text
 src/
- -- projeto_energia/
+ |-- projeto_energia/
     |-- dados/               # Codigo de ingestao e validacao de dados
     |-- processamento/       # Limpeza e transformacoes
     |-- analise/             # Analise exploratoria e indicadores
     |-- interpretacao_llm/   # Contratos para futura camada com LLM
     |-- relatorios/          # Estruturas para relatorios tecnicos
 ```
-
-Resumo da diferenca:
-
-- `data/` na raiz = onde o arquivo do dataset fica salvo
-- `src/projeto_energia/dados/` = codigo Python que le e valida esse arquivo
 
 ## Dataset inicial
 
@@ -105,8 +100,4 @@ Arquivos principais:
 - `docs/analises/interpretacao_resultados_analise_consumo.md`
 - `docs/guias/aula_termos_estatisticos_e_analiticos.md`
 
-## Observacoes de escopo
 
-- O dataset representa uma edificacao residencial e esta sendo tratado como estudo de caso dentro do tema maior de edificacoes.
-- A camada com LLM nao sera implementada por completo no PFC 1; aqui ela aparece apenas como extensao arquitetural futura.
-- A analise atual e exploratoria e nao substitui validacao estatistica mais profunda, engenharia de atributos ou avaliacao comparativa de modelos.
