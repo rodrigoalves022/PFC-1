@@ -1,6 +1,6 @@
 # Relatorio Tecnico — Analise de Consumo de Energia Eletrica
 
-**Data de geracao:** 2026-05-12 10:30
+**Data de geracao:** 2026-05-12 11:04
 **Fonte dos dados:** UCI Household Electric Power Consumption
 **Periodo dos dados:** 2006-12-16 a 2010-11-26
 **Total de registros:** 2,075,259
