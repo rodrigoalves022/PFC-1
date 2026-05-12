@@ -36,12 +36,12 @@ Dentro de `src/`, o pacote foi colocado em portugues para evitar ambiguidade com
 
 ```text
 src/
-`-- projeto_energia/
+ -- projeto_energia/
     |-- dados/               # Codigo de ingestao e validacao de dados
     |-- processamento/       # Limpeza e transformacoes
     |-- analise/             # Analise exploratoria e indicadores
     |-- interpretacao_llm/   # Contratos para futura camada com LLM
-    `-- relatorios/          # Estruturas para relatorios tecnicos
+    |-- relatorios/          # Estruturas para relatorios tecnicos
 ```
 
 Resumo da diferenca:
